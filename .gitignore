@@ -2,5 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/GetMeARide/.vs/GetMeARide/v15
-/.vs/GetMeRide
+
+/.vs/GetMeRide/v15
+/GetMeARide/.vs/GetMeARide
