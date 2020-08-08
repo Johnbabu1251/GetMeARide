@@ -1,0 +1,8 @@
+C:\Users\sjohnbabu\Documents\Johnbabu1251\GetMeARideDbSolution\GetMeARideDbSolution\bin\Debug\GetMeARideDbSolution.dacpac
+C:\Users\sjohnbabu\Documents\Johnbabu1251\GetMeARideDbSolution\GetMeARideDbSolution\obj\Debug\GetMeARideDbSolution.sqlprojAssemblyReference.cache
+C:\Users\sjohnbabu\Documents\Johnbabu1251\GetMeARideDbSolution\GetMeARideDbSolution\obj\Debug\Model.xml
+C:\Users\sjohnbabu\Documents\Johnbabu1251\GetMeARideDbSolution\GetMeARideDbSolution\obj\Debug\refactor.xml
+C:\Users\sjohnbabu\Documents\Johnbabu1251\GetMeARideDbSolution\GetMeARideDbSolution\obj\Debug\postdeploy.sql
+C:\Users\sjohnbabu\Documents\Johnbabu1251\GetMeARideDbSolution\GetMeARideDbSolution\obj\Debug\predeploy.sql
+C:\Users\sjohnbabu\Documents\Johnbabu1251\GetMeARideDbSolution\GetMeARideDbSolution\obj\Debug\GetMeARideDbSolution.dll
+C:\Users\sjohnbabu\Documents\Johnbabu1251\GetMeARideDbSolution\GetMeARideDbSolution\obj\Debug\GetMeARideDbSolution.pdb
