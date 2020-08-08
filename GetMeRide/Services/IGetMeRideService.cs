@@ -9,6 +9,7 @@ namespace GetMeRide.Services
    public  interface IGetMeRideService
     {
         IEnumerable<CarDetails> GetAllCabsDetails();
+        Task<DriverDetails> GetDriverDetails(int cabId);
 
         Location GetBusLocation(int busId);
 

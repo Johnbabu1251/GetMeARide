@@ -35,5 +35,34 @@ namespace GetMeRide.Repository
         var busLocation = busList.FirstOrDefault(b => b.Id == busId).CurrentLocation;
         return busLocation;
     }
+
+    public async Task<DataTable> GetDriverDetails(int cabId)
+    {
+       var parameters = new SqlParameter[]
+       {
+            new SqlParameter(Constants.Parameters.CABID, cabId)
+        };
+
+        try
+            {
+                return await base.ReadFromStoredProcedure(Constants.Procedures.SP_GETDRIVERDETAILS, parameters);
+            }
+            catch (SqlException ex)
+            {
+                throw ex.ToValidationException();
+            }
+        }
+    }
+private static class Constants
+{
+    public static class Parameters
+    {
+        public const string CABID = "@CabId";
+    }
+
+    public static class Procedures
+    {
+        public const string SP_GETDRIVERDETAILS = "SP_GetDriverDetails";
+    }
 }
 }

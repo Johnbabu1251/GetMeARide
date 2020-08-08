@@ -32,5 +32,16 @@ namespace GetMeRide.Controllers
             var busLocation = _getMeRideService.GetBusLocation(cabId);
             return Ok(busLocation);
         }
+
+        [HttpGet]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        public async Task<IActionResult> DrverDetails([FromQuery] int cabId)
+        {
+            var driverDetails = wait _getMeRideService.GetDriverDetails(cabId);
+            return Ok(driverDetails);
+        }
+
     }
 }

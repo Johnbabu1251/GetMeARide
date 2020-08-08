@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\sachindaipuria\\.nuget\\packages\\": {}
+    "C:\\Users\\sjohnbabu\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sachindaipuria\\source\\repos\\GetMeRide\\GetMeRide\\GetMeRide.csproj",
+      "projectUniqueName": "C:\\Users\\sjohnbabu\\Documents\\Johnbabu1251\\GetMeRide\\GetMeRide.csproj",
       "projectName": "GetMeRide",
-      "projectPath": "C:\\Users\\sachindaipuria\\source\\repos\\GetMeRide\\GetMeRide\\GetMeRide.csproj",
-      "packagesPath": "C:\\Users\\sachindaipuria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sachindaipuria\\source\\repos\\GetMeRide\\GetMeRide\\obj\\",
+      "projectPath": "C:\\Users\\sjohnbabu\\Documents\\Johnbabu1251\\GetMeRide\\GetMeRide.csproj",
+      "packagesPath": "C:\\Users\\sjohnbabu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sjohnbabu\\Documents\\Johnbabu1251\\GetMeRide\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\sachindaipuria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sjohnbabu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -44,24 +48,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }
